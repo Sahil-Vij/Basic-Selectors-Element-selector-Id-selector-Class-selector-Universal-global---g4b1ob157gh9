@@ -19,7 +19,7 @@ body{
 .left-section{
     background-color: #242531;
     padding:1rem;
-    grid-column:1;
+    grid-column:span 1;
     
 }
 .left-content{
@@ -27,7 +27,7 @@ body{
 }
 .right-section{
   background-color:aliceblue;
-    grid-column:1 / span 3;
+    grid-column:span 1/ span 2;
    
 }
 .image{
