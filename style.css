@@ -128,8 +128,12 @@ margin:0.5rem;
 .Project-content{
     margin:0.5rem; 
 }
-@media screen and (max-width:630px){
+@media screen and (max-width>=674px){
+    grid-template-column:300px 700px;
+}
+@media screen and (max-width<674px){
     .main-content{
+        grid-column:1;
         grid-template-columns: repeat(1,1fr);
     }
 }
