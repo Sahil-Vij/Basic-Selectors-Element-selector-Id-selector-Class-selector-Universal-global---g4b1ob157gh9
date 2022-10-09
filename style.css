@@ -39,11 +39,12 @@ body{
 }
 .name{
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 700px;
     text-align: center;
     padding:0.8rem;
     color:white;
     letter-spacing: 0.02px;
+    text-transform: uppercase;
 }
 .designation{
     text-transform: uppercase;
