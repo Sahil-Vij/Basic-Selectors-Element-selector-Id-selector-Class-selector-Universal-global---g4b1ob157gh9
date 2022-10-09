@@ -73,13 +73,15 @@ body{
     list-style-type: none;
     padding-top:10px;
 }
-.skills-title{
-    color:white;
-    margin-top:1rem;
+.skills{
+   color:white;
+    padding-top:1rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom:0.5rem;
+   
+    font-size:0.75rem;
 }
 .skill-name{
     color:white;
